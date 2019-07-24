@@ -1,24 +1,22 @@
 {
-  "foo": true,
-  "name": "winteriscoming",
-  "displayName": "Winter is Coming Theme",
-  "description": "Preferred dark/light themes by John Papa",
-  "icon": "images/winteriscoming-icon.png",
+  "name": "winterisgone",
+  "displayName": "Winter is Gone Theme",
+  "description": "Preferred dark themes by John Papa (but pimped by necraidan)",
+  "icon": "images/winterisgone-icon.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnpapa/vscode-winteriscoming.git"
+    "url": "https://github.com/necraidan/vscode-winterisgone.git"
   },
   "galleryBanner": {
-    "color": "#373436",
+    "color": "#ff6bee",
     "theme": "dark"
   },
-  "version": "1.2.0",
-  "publisher": "johnpapa",
+  "version": "0.0.1",
+  "publisher": "necraidan",
   "keywords": [
     "Theme",
-    "Dark Theme",
-    "Light Theme"
+    "Dark Theme"
   ],
   "scripts": {
     "list": "npx vsce ls",
@@ -35,24 +33,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Winter is Coming (Dark Blue)",
+        "label": "Winter is Gone (Dark Blue)",
         "uiTheme": "vs-dark",
-        "path": "./themes/WinterIsComing-dark-blue-color-theme.json"
+        "path": "./themes/WinterIsGone-dark-blue-color-theme.json"
       },
       {
-        "label": "Winter is Coming (Dark Blue - No Italics)",
+        "label": "Winter is Gone (Dark Black)",
         "uiTheme": "vs-dark",
-        "path": "./themes/WinterIsComing-dark-blue-color-no-italics-theme.json"
-      },
-      {
-        "label": "Winter is Coming (Light)",
-        "uiTheme": "vs",
-        "path": "./themes/WinterIsComing-light-color-theme.json"
-      },
-      {
-        "label": "Winter is Coming (Dark Black)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/WinterIsComing-dark-color-theme.json"
+        "path": "./themes/WinterIsGone-dark-color-theme.json"
       }
     ]
   }
