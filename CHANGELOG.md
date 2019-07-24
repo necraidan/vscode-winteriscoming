@@ -1,5 +1,55 @@
 # Winter is Coming theme Changelog
 
+<a name="1.2.0"></a>
+
+## 1.2.0 (2019-07-11)
+
+- Modified the highlight colors for the dark themes
+
+```json
+    "editor.hoverHighlightBackground": "#0c4994",
+    "editor.lineHighlightBackground": "#0c499477",
+    "editor.selectionBackground": "#103362",
+    "editor.selectionHighlightBackground": "#103362",
+    "editor.findMatchHighlightBackground": "#103362",
+    "editor.rangeHighlightBackground": "#103362",
+    "editor.wordHighlightBackground": "#103362",
+    "editor.wordHighlightStrongBackground": "#103362",
+```
+
+<a name="1.1.1"></a>
+
+## 1.1.1 (2019-05-30)
+
+- Added `"tab.activeBorderTop": "#219fd5",`
+- Re-instated the dark black theme. Copied the dark blue theme to dark black and modified the editor background and selection bar colors. This may not be exact as much has been updated.
+- Removed all remaining italics from the "no italics" version of the dark blue theme
+
+<a name="1.0.0"></a>
+
+## 1.0.0 (2019-04-27)
+
+- Removed dark theme, as it was not well supported
+- Added dark blue theme with no italics
+- Refactored dark blue themes to add more contrast to JSON and javascript/typescript
+
+<a name="0.9.0"></a>
+
+## 0.9.0 (2019-03-11)
+
+- Made both dark themes have a more readable warning messages
+  - "inputValidation.warningBackground": "#f7ecb5",
+  - "inputValidation.warningBorder": "#f7ecb5",
+  - "inputValidation.warningForeground": "#000000",
+
+<a name="0.8.9"></a>
+
+## 0.8.9 (2019-03-01)
+
+- Made both dark themes have a more subtle titlebar
+  - "titleBar.activeBackground": "#112233",
+  - "titleBar.inactiveBackground": "#000a11",
+
 <a name="0.8.0"></a>
 
 ## 0.8.0 (2018-10-05)
